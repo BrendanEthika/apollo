@@ -422,7 +422,7 @@ export default {
 
 ### Upgrade Guide apollo-module v3 => v4
 
-Version 4 of this module leaves you with zero configuration. This means we use the best possible approach available from `vue-cli-plugin-apollo` and the same configuration behaviour. This means you don't need to wire up your own configuration, simply pass 
+Version 4 of this module leaves you with zero configuration. This means we use the best possible approach available from `ng-vue-cli-plugin-apollo` and the same configuration behaviour. This means you don't need to wire up your own configuration, simply pass 
 
 Edit your configuration as following:
 ```js

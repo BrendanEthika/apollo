@@ -1,11 +1,11 @@
 {
-  "name": "@nuxtjs/apollo",
+  "name": "@nuxtjs/ng-apollo",
   "version": "4.0.1-rc.5",
   "license": "MIT",
   "main": "lib/module.js",
   "typings": "types/index.d.ts",
-  "repository": "https://github.com/nuxt-community/apollo-module",
-  "homepage": "https://github.com/nuxt-community/apollo-module",
+  "repository": "https://github.com/BrendanEthika/apollo-module",
+  "homepage": "https://github.com/BrendanEthika/apollo-module",
   "publishConfig": {
     "access": "public"
   },
@@ -28,7 +28,7 @@
     "cross-fetch": "^3.0.6",
     "universal-cookie": "^4.0.4",
     "vue-apollo": "^3.0.5",
-    "vue-cli-plugin-apollo": "^0.22.2",
+    "ng-vue-cli-plugin-apollo": "^0.23.7",
     "webpack-node-externals": "^2.5.2"
   },
   "peerDependencies": {
