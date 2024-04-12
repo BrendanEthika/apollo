@@ -3,8 +3,8 @@
 * Nuxt.js module to use [vue-apollo](https://github.com/Akryum/vue-apollo)
 * uses internally same approach as [vue-cli-plugin-apollo](https://github.com/Akryum/vue-cli-plugin-apollo)
 
-[![npm version](https://img.shields.io/npm/v/@nuxtjs/apollo.svg)](https://www.npmjs.com/package/@nuxtjs/apollo)
-[![license](https://img.shields.io/github/license/nuxt-community/apollo-module.svg)](https://github.com/nuxt-community/apollo-module/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/nuxtjs-ng-apollo.svg)](https://www.npmjs.com/package/nuxtjs-ng-apollo)
+[![license](https://img.shields.io/github/license/BrendanEthika/apollo-module.svg)](https://github.com/BrendanEthika/apollo-module/blob/master/LICENSE)
 
 
 ## Warning
@@ -21,23 +21,23 @@ Sometime you may need to remove/rebuild package-lock.json/yarn.lock to make it w
 ### 1- Install apollo module
 
 ```bash
-npm install --save @nuxtjs/apollo
+npm install --save nuxtjs-ng-apollo
 ```
 
 or 
 
 ```bash
-yarn add @nuxtjs/apollo
+yarn add nuxtjs-ng-apollo
 ```
 
-### 2- Load `@nuxtjs/apollo` module
+### 2- Load `nuxtjs-ng-apollo` module
 
 ```js
 // nuxt.config.js
 
 export default {
   modules: [
-    '@nuxtjs/apollo',
+    'nuxtjs-ng-apollo',
   ],
 
   apollo: {
@@ -94,7 +94,7 @@ Checkout [Official example](https://github.com/nuxt/nuxt.js/tree/dev/examples/vu
 ```js
 {
   // Add apollo module
-  modules: ['@nuxtjs/apollo'],
+  modules: ['nuxtjs-ng-apollo'],
 
   apollo: {
     // Sets up the apollo client endpoints
@@ -271,7 +271,7 @@ You have following methods for authentication available:
  // get your current token (we persist token in a cookie)
  this.$apolloHelpers.getToken(/* you can provide named tokenName if not 'apollo-token' */)
 ```
-Check out the [full example](https://github.com/nuxt-community/apollo-module/tree/master/test/fixture)
+Check out the [full example](https://github.com/BrendanEthika/apollo-module/tree/master/test/fixture)
 
 
 #### User login
@@ -449,7 +449,7 @@ Version 3 of this module is using apollo-client 2.x. You need to make sure to up
 
 ### Proxies
 
-CORS errors are most often resolved with proxies.  If you see a Cross-Origin-Request error in your client side console look into setting up a proxy.  Check out https://github.com/nuxt-community/proxy-module for quick and straight forward setup.
+CORS errors are most often resolved with proxies.  If you see a Cross-Origin-Request error in your client side console look into setting up a proxy.  Check out https://github.com/BrendanEthika/proxy-module for quick and straight forward setup.
 
 ###  ctx.req.session - req is undefined
 
